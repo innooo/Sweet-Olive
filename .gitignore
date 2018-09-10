@@ -1,0 +1,19 @@
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+/build
+.idea
+yarn.lock
+package-lock.json
+*bak
+jsconfig.json
+.prettierrc
+
+.vscode/
