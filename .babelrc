@@ -1,0 +1,13 @@
+{
+  "presets": [
+      "env",
+      "react"
+  ],
+  "plugins": [
+      "transform-runtime",
+      "babel-plugin-module-resolver",
+      "transform-object-rest-spread",
+      "dynamic-import-webpack",
+      ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}
